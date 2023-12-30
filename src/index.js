@@ -23,3 +23,6 @@ function displayForecast() {
   forecastElement.innerHTML = forecastHtml;
 }
 displayForecast();
+
+
+function getForecast(city)
