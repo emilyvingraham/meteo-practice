@@ -24,5 +24,9 @@ function displayForecast() {
 }
 displayForecast();
 
-
-function getForecast(city)
+function getForecast(city) {
+  let apiKey = '47ce0ocdabaf4a2e81b031bb9t47a0e0';
+  let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
+  console.log(apiUrl);
+}
+getForecast();
